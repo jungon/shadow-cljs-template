@@ -1,0 +1,9 @@
+{:deps    {org.clojure/clojure       {:mvn/version "1.11.1"}
+           org.clojure/clojurescript {:mvn/version "1.11.54"}}
+ :paths   ["src/dev"
+           "src/main"
+           "src/test"
+           "resources/public"]
+ :aliases {:cljs {:extra-deps {binaryage/devtools   {:mvn/version "1.0.6"}
+                               thheller/shadow-cljs {:mvn/version "2.21.0"}
+                               lilactown/helix      {:mvn/version "0.1.9"}}}}}
