@@ -1,10 +1,8 @@
 {:deps     {:aliases [:cljs]}
  :builds   {:app {:target     :browser
-                  :output-dir "resources/public/assets/js"
-                  :asset-path "/assets/js"
+                  :output-dir "resources/public/js"
                   :modules    {:app {:init-fn app.core/init}}
                   :devtools   {:preloads [devtools.preload]}
-                  :dev        {}
                   :release    {:compiler-options {:optimizations :simple}}}}
  :nrepl    {:port 3333}
- :dev-http {3003 {:root  "resources/public"}}}
+ :dev-http {3003 "resources/public"}}

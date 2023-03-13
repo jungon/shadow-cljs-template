@@ -5,4 +5,4 @@
 .nrepl-port
 .shadow-cljs/
 node_modules/
-resources/public/assets/js/**
+resources/public/js/**
